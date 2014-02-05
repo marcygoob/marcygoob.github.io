@@ -12,6 +12,8 @@ h1 {
 h2 {
 	font-family: 'Inconsolata';
 	font-size: 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 p {
@@ -19,4 +21,15 @@ p {
 	font-size: 14px;
 	border-bottom: 1px solid;
 	padding-bottom: 20px;
+}
+
+a:link {
+	text-decoration: none;
+	background-color: yellow;
+	padding: 4px;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
 }

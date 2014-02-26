@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+ <head>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+       <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+        
+  </head>
+
+  <body>
+
+    <p>
+      <nav class="navbar  navigation" role="navigation">
+        <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Enoch Pratt Library</a>
+        </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="active"><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="myaccount.html">My Account</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <form class="navbar-form search-bar" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search the Site">
+        </div>
+      </form>
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<div class="row">
+  <div class="col-sm-3">
+    <img style="border:solid #00CCFF; border-radius: 10px; 4px; padding: 30px " src="images/dragon.jpg"> 
+  </div>     
+
+  <div class="col-sm-3"> 
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="images/hornet.jpg" />
+        </li>
+        <li>
+          <img src="images/fire.jpg" />
+        </li>
+        <li>
+          <img src="images/dragondvd.jpg" />
+        </li>
+        <li>
+          <img src="images/edge.jpg" />
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+
+  <div class="col-sm-3">
+    <img  src="images/dragon.jpg"> 
+  </div>     
+
+
+  <div class="col-sm-3"> 
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="images/hornet.jpg" />
+        </li>
+        <li>
+          <img src="images/fire.jpg" />
+        </li>
+        <li>
+          <img src="images/dragondvd.jpg" />
+        </li>
+        <li>
+          <img src="images/edge.jpg" />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/flexslider/jquery.flexslider-min.js"></script>
+<script src="js/flexslider/jquery.flexslider.js"></script>
+
+<script type="text/javascript">
+         
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+             
+</script>
+</body>
+</html>

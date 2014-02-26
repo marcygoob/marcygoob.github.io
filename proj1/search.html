@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+ <head>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/style.css"> 
+        <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+        
+  </head>
+
+  <body>
+
+    <p>
+      <nav class="navbar  navigation" role="navigation">
+        <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Enoch Pratt Library</a>
+        </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="active"><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="myaccount.html">My Account</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <form class="navbar-form search-bar" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search the Site">
+        </div>
+      </form>
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+<div class="row">
+  <div class="col-sm-3">
+    <form class="search-form main-search" role="search">
+        <div class="form-group form-width">
+          <input type="text" class="form-control search-input" placeholder="Search the Catalogue">
+        </div>
+    </form>
+  </div>  
+
+  <div class="col-sm-6">
+    <div class="controls">
+        <ul class="solution1">
+          <li class="button filter" data-role="button" data-filter="all">All Results</li>
+          <li class="button filter" data-filter="category_1">Author</li>
+          <li class="button filter" data-filter="category_2">Title</li>
+          <li class="button filter" data-filter="category_3">Book</li>
+          <li class="button filter" data-filter="category_4">DVD</li>
+          <li class="button filter" data-filter="category_5">Audio Book</li>
+          <li class="button filter" data-filter="category_6">E-Book</li>
+        </ul>
+    </div>
+  </div>  
+
+
+  <div class="col-sm-3">
+    <div class="controls2">
+      <ul class="solution2">
+        <li class="sort" data-sort="data-cat" data-order="asc">Ascending</li>
+        <li class="sort" data-sort="data-cat" data-order="desc">Descending</li>
+      </ul>
+    </div>
+  </div>  
+</div>
+
+<ul id="Grid">
+<li class="mix category_1 category_3" data-cat="1"><img  src="images/oldman.jpg"></li>
+<li class="mix category_2 category_4" data-cat="1"><img src="images/wrestling.jpg"></li>
+<li class="mix category_1 category_3" data-cat="2"><img src="images/have.jpg"></li>
+<li class="mix category_1 category_3" data-cat="3"><img  src="images/sun.jpg"></li>
+<li class="mix category_2 category_3" data-cat="2"><img  src="images/brother.jpg"></li>
+<li class="mix category_2 category_3" data-cat="1"><img src="images/biography.jpg"></li>
+<li class="mix category_1 category_3" data-cat="3"><img  src="images/farewell.jpg"></li>
+<li class="mix category_1 category_5" data-cat="1"><img  src="images/audiobook.jpg"></li>
+<li class="mix category_2 category_4" data-cat="1"><img src="images/inlove.jpg"></li>
+<li class="mix category_1 category_6" data-cat="1"><img  src="images/ebook.jpg"></li>
+
+<li class="gap"></li>
+<!-- "gap" elements fill in the gaps in justified <a href="http://www.jqueryscript.net/tags.php?/grid/">grid</a> -->
+</ul>
+
+<footer>&#169; <b>Enoch Pratt Free Library,</b> Baltimore, Maryland</footer>
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+
+<script type="text/javascript">
+         
+$(function(){
+    $('#Grid').mixitup();
+});
+             
+</script>
+
+
+      </body>
+</html>

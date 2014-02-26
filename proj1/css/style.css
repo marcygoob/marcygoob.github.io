@@ -1,0 +1,189 @@
+#box {
+	border:1px solid;
+}
+
+.navigation {
+	margin-top: -15px;
+	background-color: black;
+	font-size: 15px;
+	font-family: 'Droid Serif';
+	font-style: italic;
+	letter-spacing: .03em;
+	border-radius: 0;
+}
+
+a {
+	color: white;
+	margin-left: 40px;
+}
+
+input.form-control {
+	margin-left: 50px;
+}
+
+.navbar-brand {
+	color: #00CCFF;
+}
+
+.form-width {
+	width: 30%;
+}
+
+input.form-control.search-input {
+	width: 300px;
+	font-family: 'Droid Serif';
+}
+
+.search-form .search-input { 
+ 	margin-left: 20px;
+	border: solid 2px #00CCFF;
+	width: 80%;
+	height: 45px;
+}
+
+form.search-form.main-search {
+	width: 30%;
+}
+
+ul.solution1 {
+	margin-top: 0
+}
+
+ul.solution2 {
+	margin-top: 0;
+	margin-left: -90px;
+}
+
+.controls {
+	display: inline;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+.controls li {
+	margin-left: 5px;
+	display: inline;
+	cursor: pointer;
+	list-style-type: none;
+	box-shadow: 1px 2px 6px 1px gray;
+	background-color: #00CCFF;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	font-family: 'Droid Serif';
+	font-style: normal;
+	border-radius: 10px;
+}
+
+.controls li.active {
+	box-shadow: 1px 3px 4px 3px gray;
+	font-family: 'Droid Serif';
+}
+
+.controls2 {
+	display: inline;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+.controls2 li {
+	margin-left: 5px;
+	display: inline;
+	cursor: pointer;
+	list-style-type: none;
+	box-shadow: 1px 2px 6px 1px gray;
+	background-color: white;
+	padding: 5px 10px 5px 10px;
+	color: #00CCFF;
+	font-family: 'Droid Serif';
+	font-style: normal;
+	border-radius: 10px;
+}
+
+.controls2 li.active {
+	box-shadow: 1px 3px 4px 3px gray;
+	font-family: 'Droid Serif';
+}
+
+#Grid {
+width: 100%;
+}
+
+#Grid:after {
+content: '';
+display: inline-block;
+width: 100%;
+}
+
+#Grid .mix {
+display: none;
+opacity: 0;
+width: 200px;
+height: 200px;
+vertical-align: top;
+margin-bottom: 120px;
+margin-left: -20px;
+margin-right: 40px;
+background: none;
+color: #fff;
+font-size: 30px;
+text-align: center;
+line-height: 200px;
+}
+#Grid .gap {
+display: inline-block;
+width: 200px;
+}
+
+img {
+	width: 100%;
+	height: 300px;
+}
+
+footer {
+	border-top: #00CCFF 2px solid;
+	margin-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	width: 90%;
+	font-family: 'Droid Serif';
+	margin-top: -30px;
+}
+
+.clearfix {
+	width: 100%;
+}
+
+.mosaicflow__column {
+    float:left;
+    }
+.mosaicflow__item img {
+    display:block;
+    width:100%;
+    height:auto;
+    max-width: 500px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+.blur {-webkit-filter: blur(5px);}
+
+
+.blur:hover {-webkit-filter: blur(0px);}
+
+.index-search {
+	padding: 0;
+	z-index: 10;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px){
+	.controls2 {
+	display: none;
+	}
+@media screen and (min-width: 0px) and (max-width: 1000px){
+	.controls {
+	display: none;
+	}	
+}
+

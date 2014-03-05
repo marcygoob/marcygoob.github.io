@@ -3,7 +3,6 @@
  <head>
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="css/bootstrap.min.css">
-       <link rel="stylesheet" href="css/flexslider.css">
         <link rel="stylesheet" href="css/style.css"> 
         <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -11,16 +10,11 @@
         <link rel="stylesheet" href="js/owlcarousel/js/owl-carousel/owl.carousel.css">
         <link rel="stylesheet" href="js/owlcarousel/js/owl-carousel/owl.theme.css">
 
-
-
-
-        
   </head>
 
   <body>
 
-    <p>
-      <nav style="margin-top: -15px; margin-bottom: 20px" class="navbar  navigation" role="navigation">
+      <nav style="margin-bottom: 20px" class="navbar  navigation" role="navigation">
         <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -31,8 +25,8 @@
       <ul class="nav navbar-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="search.html">Catalogue</a></li>
-        <li><a class="current" href="myaccount.html">My Account</a></li>
+        <li><a class="current" href="search.html">Catalogue</a></li>
+        <li><a href="myaccount.html">My Account</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
 
@@ -44,24 +38,33 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-<h1 style="font-family: 'Lato'; font-size: 12px; margin-left: 20px; float: right; margin-right: 50px; margin-bottom: 20px; margin-top: -5px"><u>Welcome, Daphne!</u></h1>
 
-
-<p style="font-family: 'Lato'; font-size: 32px; width: 15%; margin-left: 20px; line-height: 44px; color: #00CCFF;"><b>Because<br>you read<br><u>The Girl<br>with the<br>Dragon Tattoo</u>...</b></p>
-        <div id="owl-example" class="owl-carousel owl-wrapper">
-          <div> <a href="singlebook.html"><img src="images/dragondvd.jpg"></a></div>
-          <div> <a href="singlebook.html"><img src="images/fire.jpg"> </a></div>
-          <div> <a href="singlebook.html"><img src="images/hornet.jpg"> </a></div>
-          <div> <a href="singlebook.html"><img src="images/adulthood.jpg"> </a></div>
-          <div> <a href="singlebook.html"><img src="images/darkness.jpg"> </a></div>
-          <div> <a href="singlebook.html"><img src="images/bodywork.jpg"></a> </div>
-
-
+    <form class="search-form main-search" role="search">
+        <div class="form-group form-width">
+          <input type="text" class="form-control search-input" placeholder="Search the Catalogue">
         </div>
+    </form>
+  </div>  
+
+<div class="row">
+  <div class="col-md-4">
+
+     <img style="width: 93%; height: auto; margin-left: 20px;" src="images/oldman.jpg">
+
+  </div>
+
+  <div class="col-md-4">
+    <p style="font-family: 'Lato'; font-family 16px; line-height: 22px"><u>The Old Man and the Sea</u><br><b>Hemingway, Ernest</b><br><br>The Old Man and the Sea is the story of an epic struggle between an old, seasoned fisherman and the greatest catch of his life. For eighty-four days, Santiago, an aged Cuban fisherman, has set out to sea and returned empty-handed. So conspicuously unlucky is he that the parents of his young, devoted apprentice and friend, Manolin, have forced the boy to leave the old man in order to fish in a more prosperous boat. Nevertheless, the boy continues to care for the old man upon his return each night. He helps the old man tote his gear to his ramshackle hut, secures food for him, and discusses the latest developments in American baseball, especially the trials of the old man hero, Joe DiMaggio. Santiago is confident that his unproductive streak will soon come to an end, and he resolves to sail out farther than usual the following.</p><br><br><br><br><br><br><br><span style="font-size: 22px;">Click <a style="color: #00CCFF; margin: 0;" href="ebook.html">here</a> for the Ebook.</span>
+  </div>
+
+  <div class="col-md-4">
+      <p></p>
+  </div>
+
 </div>
 
-<p style="font-family: 'Lato'; font-size: 32px; width: 15%; margin-left: 20px; line-height: 44px; color: #00CCFF;"><b>Because<br>you read<br><u>The Old<br>Man and<br>the Sea</u>...</b></p>
-        <div id="owl-example" class="owl-carousel owl wrapper">
+<h1 style="font-family: 'Lato'; font-size: 20px; margin-left: 20px">Similar:</h1>
+  <div style="margin-left: 0px; margin-top: 20px; max-width: 1200px;" id="owl-example" class="owl-carousel owl-wrapper">
           <div> <img src="images/audiobook.jpg"> </div>
           <div> <img src="images/biography.jpg"> </div>
           <div> <img src="images/brother.jpg"> </div>
@@ -71,12 +74,9 @@
 
 
         </div>
-</div>
 
-<p style="font-family: 'Lato'; font-size: 36px; text-align: center; padding-top: 20px; padding-bottom: 40px;"> You owe the library:<br>$0.00</p>
+<footer style="margin-top: 20px">&#169; <b>Enoch Pratt Free Library,</b> Baltimore, Maryland</footer>
 
-
-<footer>&#169; <b>Enoch Pratt Free Library,</b> Baltimore, Maryland</footer>
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -100,4 +100,4 @@ $(document).ready(function() {
              
 </script>
 </body>
-</html>
+</html>        

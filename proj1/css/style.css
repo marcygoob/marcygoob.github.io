@@ -2,8 +2,10 @@
 	border:1px solid;
 }
 
+
+
 .navigation {
-	margin-top: -15px;
+	margin: 0;
 	background-color: black;
 	font-size: 15px;
 	font-family: 'Droid Serif';
@@ -15,6 +17,11 @@
 a {
 	color: white;
 	margin-left: 40px;
+}
+
+a.current {
+	background-color: #eeeeee;
+	color: black;
 }
 
 input.form-control {
@@ -177,6 +184,56 @@ footer {
 	z-index: 10;
 }
 
+
+/* Added by Ben 2/26 */
+
+.grid {
+	display: inline-block;
+	font-size: 0.1px;
+	line-height: 0;
+	text-align: justify;
+}
+
+.grid:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+.grid-item {
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	font-size: 16px;
+	padding-top: 25%;
+	background-color: #ccc;
+}
+
+.location-grid .grid-item {
+	overflow: hidden;
+	width: 25%;
+	padding-top: 25%;
+}
+
+.location-grid .grid-item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: 100%;
+}
+
+.location-grid .grid-item[data-state*="active"] img{
+	-webkit-filter: blur(0);
+}
+
+
+.l-home .site-content { position: relative; padding-top: 15px; }
+.l-home .index-search { position: relative; z-index: 2; }
+.l-home .location-grid { position: absolute; top: 0; left: 0; z-index: 1; width: 100%; height: 100%; }
+
+
+
 @media screen and (min-width: 0px) and (max-width: 1000px){
 	.controls2 {
 	display: none;
@@ -186,4 +243,7 @@ footer {
 	display: none;
 	}	
 }
+
+
+
 

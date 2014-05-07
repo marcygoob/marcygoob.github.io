@@ -1,0 +1,23 @@
+---
+layout: default 
+title: Jekyll Test Site
+---
+
+<section class="list postlist">
+	<h1>Class Blog Posts</h1>
+
+	{%	for post in site.posts %}
+	<article>
+		<time>{{ post.date | date_to_string}}</time>
+			<h2>
+				<a href="{{ post.url }}" title="{{ post.title }}">
+					{{ post.title }}
+				</a>
+			</h2>	
+	</article>		
+
+
+	{% endfor %}
+</section>	
+
+(% include nav-projects.html %)

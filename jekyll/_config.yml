@@ -1,0 +1,16 @@
+# This is a comment
+name: mywebsite
+Description: My Jekyll Website
+
+author:
+	name: Marcy Gooberman
+	email: mgooberman@mica.edu
+	github: marcygoob
+	twitter: marcygoob
+
+permalink: pretty
+
+future: true
+
+markdown: kramdown
+
